@@ -6,17 +6,17 @@ import random
 import time
 
 # ---------------- CONFIGURACIÓN ----------------
-PUERTO = "COM3"      # CAMBIA esto por el puerto de tu ESP32
+PUERTO = "COM4"      
 BAUDIOS = 115200
-COLS, ROWS = 13, 11  # tamaño del mapa (en casillas)
-TAM = 48             # tamaño de cada casilla en pixeles
-RANGO = 2            # qué tan lejos llega la explosión
-TIEMPO_BOMBA = 2.0   # segundos antes de explotar
-TIEMPO_FUEGO = 0.5   # segundos que dura el fuego
-VELOCIDAD = 0.15     # segundos entre cada paso del jugador
-BARRA = 40           # espacio arriba para mostrar texto
+COLS, ROWS = 13, 11  
+TAM = 48             
+RANGO = 2            
+TIEMPO_BOMBA = 2.0   
+TIEMPO_FUEGO = 0.5   
+VELOCIDAD = 0.15   
+BARRA = 40           
 PUNTOS_PARA_GANAR = 3
-PAUSA_RONDA = 2.0    # segundos antes de reiniciar el nivel
+PAUSA_RONDA = 2.0    
 
 # ---------------- CONEXIÓN CON LA ESP32 ----------------
 try:
